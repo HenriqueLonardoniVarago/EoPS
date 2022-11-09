@@ -1,0 +1,183 @@
+/*Fontes*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+
+/* Especificações Gerais */
+
+body {
+  
+  color: #333;
+  font-family: 'Open Sans';
+  margin: 0;
+
+}
+
+body::-webkit-scrollbar {
+
+  display: none;
+
+}
+
+h1, h2 {
+
+  color: #111;
+
+}
+
+p {
+
+  color: #555;
+  font-size: 20px;
+  line-height: 32px;
+  text-align:start;
+
+}
+
+a {
+
+ text-decoration: none;
+ color:#fd8a24;
+ font-size: 20px;
+ font-weight: 700;
+
+}
+
+figure {
+
+  padding: 0;
+  margin: 40px 0px;
+  font-size: 12px;
+
+}
+
+figure>img {
+
+  width: 100%;
+
+}
+
+
+/*TOPBAR*/
+
+.topbar {
+
+  color: white;
+  background-color: #333;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  padding: 8px;
+  border-bottom: 5px solid #fd8a24;
+
+}
+
+
+/*HEADER*/
+
+.container {
+
+ max-width: 688px;
+ margin: auto;
+ padding: 30px;
+
+}
+
+.headline {
+
+  font-size: 56px;
+  line-height: 64px;
+
+}
+
+.subtitle {
+
+font-weight: 400;
+font-size: 20px;
+
+}
+
+.author_name {
+
+  font-weight: bold;
+  font-size: 0.8em;
+
+}
+
+.social_icons {
+
+  margin-top: 10px;
+
+}
+
+.icon {
+
+  width: 20px;
+  padding: 10px 10px 10px 0px;
+  cursor: pointer;
+
+}
+
+.icon:visited {
+
+  width: 32px;
+  padding: 10px 10px 10px 0px;
+
+  cursor: pointer;
+
+}
+
+.icon:active {
+
+ cursor: grabbing;
+
+}
+
+
+/* CONTENT */
+
+.content {
+
+ max-width: 648px;
+ margin: auto;
+
+}
+
+.nowrap {
+
+  color: #555;
+  font-size: 20px;
+  line-height: 32px;
+  text-align:start;
+
+}
+
+.cor_link {
+
+ font-size: 20px;
+
+}
+
+.cor_link:visited {
+
+  color:#e86c00ce;
+ 
+ }
+
+ .cor_link:active {
+
+  color:#ffa14e;
+ 
+ }
+
+
+ /* BOTTOMBAR */
+
+ .footer {
+
+  background-color: #333;
+  height: 100px;
+  width: 100%;
+  border-top: 5px solid #fd8a24;
+
+}
