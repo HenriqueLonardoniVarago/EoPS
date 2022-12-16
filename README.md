@@ -1,2 +1,2 @@
-# Exemplo-de-P-gina
-Testando meus conhecimentos em HTML5 e CSS3
+# Example of Page
+Testing my knowledge in HTML5 and CSS3
